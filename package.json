@@ -1,0 +1,26 @@
+{
+  "name": "@basedakp48/idle-rpg",
+  "version": "1.0.0-alpha",
+  "description": "Transforms messages and resends them as something else.",
+  "license": "MIT",
+  "repository": "BasedAKP48/IdleRPG",
+  "author": "Alan H (feildmaster) <akp48@feildmaster.com> (https://feildmaster.com/)",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "basedakp48",
+    "basedakp48-plugin"
+  ],
+  "dependencies": {
+    "@basedakp48/plugin-utils": "^1.15.2",
+    "firebase-admin": "^5.11.0"
+  },
+  "devDependencies": {
+    "@basedakp48/eslint-config": "^1.0.1",
+    "eslint": "^4.19.1"
+  }
+}
