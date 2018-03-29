@@ -3,9 +3,16 @@
  * Stores players. Manages events.
  */
 class Village {
-  constructor(plugin) {
+  constructor(uid, plugin) {
+    this.id = uid;
     this.plugin = plugin;
     this.players = [];
+    this.config = plugin.config().of(`village/${uid}`); // plugin.config() isn't real (yet)
+
+    this.channel = 'output channel ID';
+    this.settings = { // TODO: settings
+      // setting: value,
+    };
   }
 
   get online() {

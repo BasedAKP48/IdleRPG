@@ -4,7 +4,7 @@ class Player {
     this.village = village;
     this.online = false;
 
-    this.config = village.plugin.config().of(`players/${key}`);
+    this.config = village.plugin.config().of(`players/${key}`); // plugin.config() isn't real (yet)
 
     this.name = 'player name';
     this.level = 0;
