@@ -1,6 +1,6 @@
 class Player {
   constructor(key, village) {
-    this.key = key;
+    this.id = key;
     this.village = village;
     this.online = false;
 
